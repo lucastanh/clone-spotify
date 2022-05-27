@@ -1,0 +1,60 @@
+hr {
+    opacity: 20%;
+}
+
+p.login-to-continue {
+    font-family: sans-serif;
+    font-size: 0.875rem;
+}
+
+.facebook-login, .apple-login, .google-login, .phone-login{
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 12px 31px;
+    border-color: #6a6a6a;
+    color: #fff;
+}
+
+.facebook-login:hover, .apple-login:hover, .google-login:hover, .phone-loginhover:hover {
+    border-color: #000;
+    background-color: none;
+}
+
+.apple-login{
+    background-color: #000;
+}
+
+button.facebook-login {
+    background-color: rgb(59, 89, 152);
+}
+
+.google-login, .phone-login {
+    background-color: #fff;
+    color: #6a6a6a;
+}
+
+.apple-icon, .google-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.apple-icon{
+    background: url("https://accounts.scdn.co/sso/images/apple-icon.36286be565c1ca3ac9b60243f8e0a78b.svg") center center no-repeat;
+}
+
+.google-icon {
+    background: url("https://accounts.scdn.co/sso/images/google-icon.1cdc8fce9609d07f0e9d8d0bc4b61f8f.svg") center center no-repeat;
+}
+
+.form-check-input:checked{
+    background-color: green;
+}
+
+.btn-login{
+    background-color: rgb(30, 215, 96);;
+    color: #000;
+    border-color: white;
+    letter-spacing: 1px;
+}
+
+
